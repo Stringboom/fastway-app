@@ -98,7 +98,7 @@ http://localhost:8080
 
 - Production:
 ```
-https://your-prod-domain.com
+https://fastway-app.fly.dev
 ```
 
 ---
