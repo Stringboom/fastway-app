@@ -1,0 +1,65 @@
+:root {
+  --fw-red:       #e8001d;
+  --fw-red-dark:  #b8001a;
+  --fw-navy:      #1b2a4a;
+  --fw-navy-mid:  #243559;
+}
+
+.navbar-fw {
+  background-color: var(--fw-navy) !important;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, var(--fw-navy) 0%, var(--fw-navy-mid) 55%, #3a1a2e 100%);
+}
+
+.btn-fw {
+  background-color: var(--fw-red);
+  border-color: var(--fw-red);
+  color: #fff;
+}
+.btn-fw:hover, .btn-fw:focus {
+  background-color: var(--fw-red-dark);
+  border-color: var(--fw-red-dark);
+  color: #fff;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 1.5rem;
+}
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 6px; top: 6px; bottom: 6px;
+  width: 2px;
+  background-color: #dee2e6;
+}
+.timeline-item {
+  position: relative;
+  padding-bottom: 1.25rem;
+}
+.timeline-item:last-child { padding-bottom: 0; }
+.timeline-dot {
+  position: absolute;
+  left: -1.5rem;
+  top: 4px;
+  width: 13px; height: 13px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: #dee2e6;
+  box-shadow: 0 0 0 2px #dee2e6;
+}
+.timeline-dot.active {
+  background: var(--fw-red);
+  box-shadow: 0 0 0 3px rgba(232,0,29,0.2);
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.fade-in   { animation: fadeUp 0.35s ease both; }
+.fade-in-1 { animation-delay: 0.05s; }
+.fade-in-2 { animation-delay: 0.12s; }
+.fade-in-3 { animation-delay: 0.19s; }

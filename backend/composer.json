@@ -1,0 +1,16 @@
+{
+  "name": "fastway/courier-app-backend",
+  "description": "Fastway Couriers PHP API Backend",
+  "type": "project",
+  "require": {
+    "php": "^8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fastway\\": "src/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true
+  }
+}
