@@ -26,7 +26,6 @@ fastway-app/
 ├── Dockerfile                        # Multi-stage: Node → PHP-FPM + nginx
 ├── docker-compose.yml                # Single service, reads from .env
 ├── .env.example                      # Environment variable template
-├── .github/workflows/deploy.yml      # CI/CD — secrets from GitHub
 │
 ├── backend/
 │   ├── composer.json
