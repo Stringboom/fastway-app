@@ -60,7 +60,7 @@ fastway-app/
 ### Steps
 
 ```bash
-git clone https://github.com/Stringboom/fastway-couriers-tech-assessment.git fastway-app && cd fastway-app
+git clone https://github.com/Stringboom/fastway-app.git fastway-app && cd fastway-app
 
 cp .env.example .env
 # Edit .env and set FASTWAY_API_KEY
