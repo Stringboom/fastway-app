@@ -4,6 +4,8 @@
 
 A web application integrating with the Fastway Couriers SA API to provide parcel tracking and shipping quotes.
 
+Live: [Website](https://fastway-app.fly.dev/)
+
 ---
 
 ## Tech Stack
