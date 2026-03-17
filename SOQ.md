@@ -16,7 +16,7 @@ The system communicates with the official Fastway Couriers South Africa API.
 Open a web browser and navigate to:
 
 ```
-https://app.url
+https://fastway-app.fly.dev
 ```
 
 OR
