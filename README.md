@@ -84,16 +84,6 @@ Create a `.env` file from `.env.example`. **Never commit `.env` to version contr
 
 The API key is consumed exclusively by the PHP backend — it is never sent to or stored in the browser.
 
-### GitHub Actions / CI
-
-In CI the `.env` file is generated from GitHub repository secrets (see `.github/workflows/deploy.yml`). Add these secrets in **Settings → Secrets and variables → Actions**:
-
-- `FASTWAY_API_KEY`
-- `FASTWAY_API_BASE`
-- `FASTWAY_RFC_CODE`
-- `DEPLOY_HOST`, `DEPLOY_USER`, `DEPLOY_SSH_KEY` (for remote deployment)
-
----
 
 ## Local Development (without Docker)
 
